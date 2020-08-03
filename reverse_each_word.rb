@@ -13,5 +13,6 @@ def reverse_each_word(sentence)
     end
   end
   
+  puts stringSentence.join
   return stringSentence.join
 end
