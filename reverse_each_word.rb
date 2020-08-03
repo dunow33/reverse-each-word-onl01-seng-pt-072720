@@ -4,7 +4,7 @@ def reverse_each_word(sentence)
   
   stringSentence = []
   
-  stringArray.each do |word|
+  stringArray.collect do |word|
     if (stringArray.length - 1) == counter
       stringSentence.push(word.reverse)
     elsif
