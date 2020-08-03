@@ -6,7 +6,7 @@ def reverse_each_word(sentence)
   
   stringArray.each do |word|
     #if (stringArray.length - 1) == stringArray[size]
-     # stringSentence.push(word.reverse)
+      stringSentence.push(word.reverse)
     #elsif
      # stringSentence.push(word.reverse + " ")
     #end
