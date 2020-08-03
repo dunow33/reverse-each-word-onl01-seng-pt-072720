@@ -8,6 +8,7 @@ def reverse_each_word(sentence)
       stringSentence.push(word.reverse)
     elsif
       stringSentence.push(word.reverse + " ")
+    end
   end
   
   return stringSentence.join
