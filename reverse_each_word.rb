@@ -3,8 +3,8 @@ def reverse_each_word(sentence)
   
   stringSentence = []
   
-  stringArray.each_with_index do |word, index|
-    if (stringArray.length - 1) == index
+  stringArray.each do |word|
+    if (stringArray.length - 1) == stringArray[stringArray.length - 1]
       stringSentence.push(word.reverse)
     elsif
       stringSentence.push(word.reverse + " ")
